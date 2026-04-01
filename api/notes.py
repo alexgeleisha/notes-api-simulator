@@ -2,3 +2,5 @@
 notes = []
 def create_note(text):
     notes.append({"id": len(notes), "text": text})
+def list_notes():
+    return notes
