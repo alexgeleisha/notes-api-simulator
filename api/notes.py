@@ -4,3 +4,7 @@ def create_note(text):
     notes.append({"id": len(notes), "text": text})
 def list_notes():
     return notes
+def get_note(note_id):
+    for note in notes:
+        if note["id"] == note_id:
+            return note
