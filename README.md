@@ -1,13 +1,14 @@
-notes-api-simulator/
-│
-├── api/
-│   ├── notes.py
-│   ├── storage.py
-│   └── utils.py
-│
-├── tests/
-│   └── test_notes.py
-│
-├── data.json
-├── .gitignore
-└── README.md
+# Notes API Simulator
+
+Simple backend-like notes system in Python.
+
+## Features
+- Create, read, update, delete notes
+- JSON persistence
+- Timestamp support
+
+## Run
+python
+
+## Tests
+pytest
