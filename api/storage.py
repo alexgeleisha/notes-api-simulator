@@ -1,2 +1,5 @@
 # api/storage.py
 import json
+def save(data, filename="data.json"):
+    with open(filename, "w") as f:
+        json.dump(data, f)
