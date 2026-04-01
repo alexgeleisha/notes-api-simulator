@@ -8,3 +8,7 @@ def get_note(note_id):
     for note in notes:
         if note["id"] == note_id:
             return note
+def update_note(note_id, new_text):
+    for note in notes:
+        if note["id"] == note_id:
+            note["text"] = new_text
