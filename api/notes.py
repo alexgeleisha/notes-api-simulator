@@ -1,0 +1,2 @@
+# api/notes.py
+notes = []
